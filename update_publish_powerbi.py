@@ -4,7 +4,7 @@ import time
 import subprocess
 
 # Caminho para o arquivo PBIX
-pbix_path = r'C:/Users/gblsj/OneDrive/Documentos/PBI/Dashboard de Performance - Taylor Swift.pbix'
+pbix_path = r'(Seu diretório do arquivo pbix)'
 print(f"Path do arquivo PBIX definido: {pbix_path}")
 
 # Caminho para o executável do Power BI Desktop instalado via Microsoft Store
@@ -23,8 +23,8 @@ time.sleep(20)  # Ajuste o tempo conforme necessário para garantir que o arquiv
 print("Tempo de espera para iniciar a manipulação do arquivo concluído")
 
 # Conecte-se à aplicação do Power BI Desktop
-app = Application().connect(title_re='.*Dashboard de Performance*')
-pbi_window = app.window(title_re='.*Dashboard de Performance*')
+app = Application().connect(title_re='.*Título da janela do seu arquivo pbix*')
+pbi_window = app.window(title_re='.*Título da janela do seu arquivo pbix*')
 pbi_window.set_focus()
 print("Janela encontrada com sucesso")
 
