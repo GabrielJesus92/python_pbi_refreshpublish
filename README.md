@@ -56,3 +56,6 @@ Este script Python automatiza a abertura de um arquivo PBIX no Power BI Desktop,
 2. **Executar o Script**:
    ```bash
    python nome_do_arquivo.py
+
+# Contribuições
+Sinta-se à vontade para melhorar o script e ajustar os tempos e atalhos conforme necessário. Abra uma issue ou um pull request para colaborar.
